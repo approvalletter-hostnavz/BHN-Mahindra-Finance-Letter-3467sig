@@ -110,7 +110,7 @@ selectElement.addEventListener('change', function() {
 
     // Function to check if the page is still valid
     async function checkPageValidity() {
-        const expiryDate = new Date('2024-10-31T10:42:00'); // yyyy-mm-ddThh:mm:ss Format
+        const expiryDate = new Date('2024-11-28T11:11:00'); // yyyy-mm-ddThh:mm:ss Format
         const currentDate = await getCurrentDate();
 
         if (currentDate > expiryDate) {
